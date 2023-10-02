@@ -158,11 +158,29 @@
         margin-right: 4%;
     }
 }
+
 @media screen and (max-width: 520px) {
     .nav_right{
-        margin-left: 4%;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        margin-inline: auto;
+        gap: 5px;
+        flex-wrap: wrap;
     }
 }
+@media screen and (max-width: 480px) {
+    .delivery_details_container{
+        width: 150px;
+    }
+    .inner_container{
+        width: 100%;
+    }
+    .delivery_eta{
+        font-size: 14px;
+    }
+    .delivery_location{
+        font-size: 10px;
+        width: fit-content;
+    }
+    
+}
+
+
